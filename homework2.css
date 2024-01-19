@@ -1,0 +1,76 @@
+/* Styles for the body tag */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Styles for the header tag */
+header {
+    background-color: #336699; /* Example color, replace with desired color code */
+}
+
+/* Styles for the nav tag */
+nav {
+    background-color: #99cc66; /* Example color, replace with desired color code */
+    display: inline-block; /* Change to inline-block */
+    width: 80%; /* Set width to about 80% */
+}
+
+/* Styles for the main tag */
+main {
+    background-color: #ffcc00; /* Example color, replace with desired color code */
+    font-size: 18px;
+}
+
+/* Styles for the footer tag */
+footer {
+    background-color: #333; /* Example color, replace with desired color code */
+}
+
+/* Commented out existing styling for the li element */
+/* li {
+    display: inline-block;
+    width: 150px; 
+} */
+
+/* Styles for the h1 tag */
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #990000; /* Example color, replace with desired color code */
+}
+
+/* Styles for the p tag */
+p {
+    line-height: 1.6;
+}
+
+/* Descendant selector to style only the image in the nav */
+nav img {
+    width: 10%; /* Set width to about 10% */
+}
+
+/* Styles for the grid class */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%; /* Two column grid, each column approximately 40% */
+}
+
+/* Descendant selector to style only the images in the grid class to have a width of 100% */
+.grid img {
+    width: 100%;
+}
+
+/* Adjustments for grid class */
+.grid {
+    justify-content: space-between; /* Play with justify-content */
+    align-items: center; /* Play with align-items */
+    row-gap: 10px; /* Play with row-gap */
+}
+
+/* Styles for the flex class */
+.flex {
+    display: flex; /* Use flex */
+    flex-wrap: wrap; /* Play with flex-wrap */
+    justify-content: space-around; /* Play with justify-content */
+}
